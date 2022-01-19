@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="Practica maquetación de una Web">
+	<meta name="keywords" content="html,css3, javascripts, diseño web, cursos">
+	<meta name="autor" content="Francisco Martinez">
+	<meta name="generation" content="sublime text 3, photoshop, ilustrator">
+	<meta charset="utf-8">
+	<title>Maquetación de una Web</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="contenedor">
+		<header>
+			<div class="logotokio">
+				<img src="../media/img/logo.png" alt="logo tokio" class="logo">
+				<h1 class="titulo">Tokio School</h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="quienes somos.html">Quienes Somos</a></li>
+					<li><a href="nuestros_servicios.html">Nuestros Servicios</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<div class="cuerpo">
+
+				<div id="img-principal">
+					<img src="../media/img/beautiful-young-woman-with-curly-dark-hair-stays-in-touch-uses-modern-gadget-makes-her-own-blog.jpg" alt="contacto tokio" id="img-principal-contacto">
+				</div>
+
+			<section class="flex-contenedor-contacto">
+				<div>
+					<h2 id="titulo-contacto">¿En qué podemos ayudarte?</h2>
+					<p>Escríbenos lo que quieras: una duda, un haikú o una línea de código. Te responderemos a la mayor tasa de bytes/segundo posible :)</p>
+				</div>
+				<form class="form" autocomplete="on" method="POST" action="mailto:contactostokio@url.org">
+					<div class="form-section">
+						<input type="text" name="name" class="form-input" placeholder="Nombre y Apellidos*" required>
+					</div>
+					<div class="form-section">
+						<select id="cursos">
+							<option value="cursos">Seleccione el curso de interes*</option>
+							<option value="Especialización en Marketing Digital">Especialización en Marketing Digital</option>
+							<option value="Programación web Front-End: HTML5, CSS3 y Java Script">Programación web Front-End: HTML5, CSS3 y Java Script</option>
+							<option value="Programación con Python">Programación con Python</option>
+							<option value="Programación con Java: Certificación OCP">Programación con Java: Certificación OCP</option>
+							<option value="Programación de aplicaciones móviles con Android">Programación de aplicaciones móviles con Android</option>
+							<option value="Programación de videojuegos con Unreal Engine">Programación de videojuegos con Unreal Engine</option>
+						</select>
+					</div>
+					<div class="form-section">
+						<input type="email" name="email" class="form-input" placeholder="Correo electrónico*" required>
+					</div>
+					<div class="form-section">
+						<input type="number" name="telefono" id="telefono" class="form-input" placeholder="Teléfono*" required>
+						<select id="number">
+							<option value="+34">+34</option>
+							<option value="+52">+52</option>
+							<option value="+54">+54</option>
+							<option value="+44">+44</option>
+							<option value="+58">+58</option>
+						</select>
+					</div>
+					<div class="form-section">
+						<input type="number" name=""  class="form-input" placeholder="Código Postal*" required>
+					</div>
+					<div class="form-section">
+						<textarea class="form-input" id="textarea" placeholder="Mensaje"></textarea>
+					</div>
+					<div class="form-section">
+						<input type="submit" name="enviar" value="Contactar" class="form-input-submit">
+					</div>
+
+				</form>
+
+			</section>
+		
+			<footer>
+				<ul>
+					<li><a href="avisolegal.html">Aviso Legal</a></li>
+					<li><a href="politicadecookies.html">Politica de Cookies</a></li>
+					<li><a href="politicadeprivacidad.html">Pólitica de Privacidad</a></li>
+				</ul>
+			</footer>
+		</div>	
+	</div>
+	
+</body>
+</html>
